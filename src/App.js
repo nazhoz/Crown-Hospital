@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import "./components/nav/Nav.css"
+import"./components/nav//Home.css"
+
+import { BrowserRouter,Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './components/nav/main/Home';
+import Finddoctors from './components/nav/doctor/Finddoctors';
+import Labtests from './components/nav/labs/Labtests';
+import Videoconuslt from './components/nav/videoconsult/Videoconuslt';
+import Medicines from './components/nav/medi/Medicines';
+import Surguries from './components/nav/surgu/Surguries';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  
+  return ( 
+    <BrowserRouter>
+    <Routes>
+    <Route path='/' element={<Layout/>}>
+      <Route index element={<Home/>}/>
+      <Route path='Finddoctors' element={<Finddoctors/>}/>
+      <Route path='Labtests' element={<Labtests/>}/>
+      <Route path='Videoconsults' element={<Videoconuslt/>}/>
+      <Route path='Medicines' element={<Medicines/>}/>
+      <Route path='Surguries' element={<Surguries/>}/>
+ 
+
+    </Route>
+    </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;
