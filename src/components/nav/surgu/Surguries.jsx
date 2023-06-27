@@ -1,8 +1,14 @@
 import React from 'react'
+import SurguryMain from './SurguryMain'
+import SurguryBody from './SurguryBody'
+import { surcards } from './Data'
 
 const Surguries = () => {
   return (
-    <div>Surguries</div>
+    <div>
+      <SurguryMain/>
+      <SurguryBody name={surcards}/>
+    </div>
   )
 }
 

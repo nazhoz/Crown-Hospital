@@ -546,3 +546,252 @@
     align-items: center;
     margin-top: 3rem;
 }
+.second-lab-cards{
+    background-image: linear-gradient(lightseagreen,lightblue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.video-main-img{
+    width: 650px;
+    height: 325px;
+}
+.video-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgb(247, 233, 222);
+    height: 450px;
+}
+.video-btn-page{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 5rem;
+}
+.video-btn{
+    margin-top: 4rem;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.video-btn-text{
+    font-size: 20px;
+    margin-top: .4rem;
+    font-weight: bold;
+}
+.video-card-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+.video-card-box{
+    background-color: rgb(130, 187, 130);
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.video-card-offer{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    background-color: white;
+    color: rgb(130, 187, 130);
+    font-weight: bold;
+}
+.video-card-text{
+    margin-left: 2rem;
+}
+.video-card-btn{
+    margin-left: 2rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.video-card-practo{
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    background-color: white;
+    color: rgb(228, 74, 194);
+    font-weight: bold;
+}
+.video-card-box1{
+    background-color: rgb(228, 74, 194);
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.medi-cart{
+    width: 20px;
+    height: 20px;
+}
+.medi-search{
+    width: 25px;
+    height: 25px;
+}
+.medi-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: 5rem;
+}
+.medicines-search{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 1px;
+}
+.medi-input{
+    width: 450px;
+    border: 0;
+    background: none;
+    outline-color: white;
+}
+.medicines-cart{
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 5px;
+}
+.medi-text{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-stretch: expanded;
+}
+.medi-slider-main{
+    margin-top: 2rem;
+}
+.product-img{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+}
+.product-img:hover{
+    transform: scale(1.02);
+    transition-duration: 0.2s;
+}
+.surgury-img{
+    width: 120px;
+    height: 25px;
+}
+.surugury-call-img{
+    width: 15px;
+    height: 15px;
+}
+.surgry-main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.surgury-body{
+    background-image: linear-gradient(lightskyblue,rgb(32, 54, 178));
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.surgry-practo-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+
+}
+.surgury-text{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.surgury-call{
+    border: 2px solid white;
+    height: 45px;
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+.surgury-call-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 140px;
+    border-left: 1px solid white;
+}
+.sur-cards{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(5,4fr);
+    grid-template-rows: auto;
+    height: 65vh;
+}
+.sur-cards-img{
+    width: 50px;
+    height: 50px;
+}
+.sur-card-text{
+    font-size: 14px;
+}
+.surgury-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.surguryBody-main{
+    display: flex;
+}
+.surgury-cards-img{
+    width: 50%;
+    height: 70vh;
+    margin-left: 5rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.sur-suggestion-box{
+    margin-left: 5rem;
+    border: 1px solid lightgray;
+    width: 35%;
+}
