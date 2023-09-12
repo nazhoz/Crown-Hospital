@@ -14,6 +14,7 @@ const Labtests = () => {
       <LabCardsSecond/>
       <FifthBody/>
       <Copy/>
+      
     </div>
   )
 }

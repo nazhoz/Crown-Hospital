@@ -303,7 +303,8 @@
     width: 70%;
 }
 .copy-img{
-    height: 50px;
+    height: 140px;
+    width: 140px;
 }
 .copy-content{
     width: 100%;
@@ -782,16 +783,139 @@
 }
 .surguryBody-main{
     display: flex;
+    flex-direction: column;
+    width: 60%;
 }
 .surgury-cards-img{
-    width: 50%;
+    width: 85%;
     height: 70vh;
     margin-left: 5rem;
     border: 1px solid lightgray;
     border-radius: 10px;
+
 }
 .sur-suggestion-box{
-    margin-left: 5rem;
+    margin-left: 6rem;
+
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 100px;
+}
+.sur-opt{
+    width: 330px;
+    height: 50px;
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.sur-opt-input{
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    outline: none;
+    background: none;
+}
+.sur-opt-btn{
+    width: 330px;
+    height: 50px;
+    border-radius: 5px; 
+    background-color: rgb(58, 58, 148);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.sur-opt-text{
+    font-size: 10px;
+    margin-left: 3rem;
+}
+.surgur-main{
+    height: 200vh;
+    display: flex;
+}
+.sur-cards2{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: auto;
+    width: 100%;
+    margin-left: 3rem;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.surcards-scnd-img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.sur-sugg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
     border: 1px solid lightgray;
-    width: 35%;
+    width: 100%;
+    border-radius: 10px;
+}
+.sur-sugg-number{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+.sur-sugg-img{
+    width: 15px;
+    height: 15px;
+}
+.sur-sugg-or{
+     font-size: 20px;
+     font-weight: bold;
+}
+.sur-sugg-call{
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 1px solid lightgray;
+    
+}
+.login-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.login-page{
+    height: 60vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.login-email-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+.login-password{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
 }

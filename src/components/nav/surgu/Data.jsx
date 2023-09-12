@@ -77,3 +77,36 @@ export const surcards=[
 },
 
 ]
+
+export const surcard=[
+    {
+        img:"https://images.ctfassets.net/a5lr4xmo2i3k/7LtGC6lIDqJiNhoAIE2xNC/1ffc26aae2e50642e661f08fd6944c20/shutterstock_1290596902_1__1_.png?w=160&h=180",
+        head:"General Surgery",
+        title:"9 ailments"
+    },
+    {
+        img:"https://images.ctfassets.net/a5lr4xmo2i3k/6gA5BgNsLuWHsvazAK0INw/e56ec45f2cb280513cde42f701f8fc4c/140818535_m_1__1_.png?w=160&h=180",
+        head:"Proctology",
+        title:"5 ailments"
+    },
+    {
+        img:"https://images.ctfassets.net/a5lr4xmo2i3k/7hPNzNbyJx2hxpDWuNN3iW/c178d01b48313b0ff2a61868bf55137d/img_Ophthalmologist_specialists.png?w=160&h=180",
+        head:"Ophthamology",
+        title:"4 ailments"
+    },
+    {
+        img:"https://images.ctfassets.net/a5lr4xmo2i3k/5M5Ka21ADZfZ7tcwzC3Ql5/7cf514af5fbedb1709d9ecf061128864/img_Urologist_symptom.png?w=160&h=180",
+        head:"Urology",
+        title:"12 ailments"
+    },
+    {
+        img:"https://images.ctfassets.net/a5lr4xmo2i3k/7LtGC6lIDqJiNhoAIE2xNC/1ffc26aae2e50642e661f08fd6944c20/shutterstock_1290596902_1__1_.png?w=160&h=180",
+        head:"Cosmetic",
+        title:"6 ailments"
+    },
+    {
+        img:"https://images.ctfassets.net/a5lr4xmo2i3k/3pyQOnPQqHrXGVsvgaA52M/6a7272d884e404c49787f47654f1c688/orthopedics.png?w=160&h=180",
+        head:"Orthopedics",
+        title:"8 ailments"
+    },
+]

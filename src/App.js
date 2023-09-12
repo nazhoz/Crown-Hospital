@@ -10,6 +10,8 @@ import Labtests from './components/nav/labs/Labtests';
 import Videoconuslt from './components/nav/videoconsult/Videoconuslt';
 import Medicines from './components/nav/medi/Medicines';
 import Surguries from './components/nav/surgu/Surguries';
+import LoginPage from './components/nav/loginpage/LoginPage';
+
 
 
 
@@ -25,6 +27,8 @@ function App() {
       <Route path='Videoconsults' element={<Videoconuslt/>}/>
       <Route path='Medicines' element={<Medicines/>}/>
       <Route path='Surguries' element={<Surguries/>}/>
+      <Route path='LoginPage' element={<LoginPage/>}/>
+      
  
 
     </Route>

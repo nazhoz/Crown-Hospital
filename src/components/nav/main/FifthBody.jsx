@@ -9,7 +9,7 @@ const FifthBody = () => {
         </div>
         <div className='fifth-body'>
             <div>
-            <h1 className='text-body1'>Download the Practo app</h1>
+            <h1 className='text-body1'>Download the Crown app</h1>
             <span className='fifth-text-body'>Access video consultation with India’s top doctors on the Practo app. Connect with doctors online, available 24/7, from the comfort of your home</span>
             </div>
             <div className='fifth-body-text'>
